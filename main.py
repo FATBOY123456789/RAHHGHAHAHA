@@ -3,7 +3,7 @@ class POINTYPOINTYPOINTY:
         self.x=x
         self.y=y
     def __str__(self):
-        return "({0},{1})", format(self.x,self.y)
+        print('(',self.x,',',self.y,')')
 # printing obj
 POINTY=POINTYPOINTYPOINTY(2,3)
-print(POINTY)
+POINTY.__str__()
